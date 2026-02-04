@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+}
+
+.parent {
+  width: fit-content;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: black;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 350px;
+  width: 300px;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white
+}
+
+.card .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.top img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 2px;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  gap: 2px;
+  background-color: transparent;
+  margin: 10px 10px;
+  color: black;
+}
+
+.top {
+}
+
+.center {
+}
+
+.center h3 {
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.center h3 span {
+  font-size: 10px;
+  font-weight: 500;
+  color: blue;
+}
+
+.center h2 {
+  font-size: 20px;
+}
+
+.center .tag {
+  display: flex;
+  gap: 2px;
+}
+
+.center .tag h4 {
+  font-size: 14px;
+  padding: 3px 3px;
+  font-weight: 500px;
+  border-radius: 5px;
+  background-color: rgb(203, 190, 192);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding-top: 15px;
+}
+
+.bottom button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.bottom h3 {
+  font-size: 14px;
+}
+
+.bottom p {
+  font-size: 12px;
+  color: #6a5bda;
+}
